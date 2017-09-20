@@ -58,6 +58,11 @@ body{
     background-color: #7a991a;
 }
 
+.centerimage{
+  text-align: cenetr;
+}
+
+
 .caption {
     color: black;
     font-family: Georgia, "Times New Roman", serif;
