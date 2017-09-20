@@ -19,11 +19,12 @@ body{
 }
 
 h1{
-  font-family: "Baloo+Tammudu", Helvetica, Arial, sans-serif;
+  font-family: "Baloo Tammudu", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 2em;
   background-color: #FFFC19;
 }
+
 .centerimage {
   text-align: center;
   border-style: none;
