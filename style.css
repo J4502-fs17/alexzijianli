@@ -11,12 +11,11 @@ p {
 		line-height:1.5rem;
 }
 
-h1 {
+h1{
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
     font-size: 2em;
     background-color: yellow;
-
 }
 
 title {text-align: center;
