@@ -41,6 +41,10 @@ p{
   text-align: center;
 }
 
+ul{
+  padding: 0;
+  list-style-type: none;
+}
 .mylist{
   padding: 0;
   list-style-type: none;
