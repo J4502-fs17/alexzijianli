@@ -3,14 +3,9 @@
 /*p {
     color: red;
 }*/
-
-p {
-	color: #666666;
-    font-family: Merriweather,Georgia, "Time New Roma",Arial, sans-serif;
-		font-size:1rem;
-		line-height:1.5rem;
+body{
+	background-color:#ebe3ce;
 }
-
 
 h1{
   font-family: Georgia, "Times New Roman", serif;
@@ -18,17 +13,6 @@ h1{
   font-size: 2em;
   background-color: yellow;
 }
-
-title {
-  text-align: center;
-
-}
-
-body{
-	background-color:#ebe3ce;
-}
-
-
 .centerimage {
   text-align: center;
   border: 0;
