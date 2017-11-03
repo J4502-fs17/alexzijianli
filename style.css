@@ -21,15 +21,24 @@ body{
 
 h1{
   font-family: "Baloo Tammudu", Helvetica, Arial, sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 2em;
-  background-color: #FFFC19;
 }
 
 .centerimage {
   float: left;
   border-style: none;
   margin:5px;
+  width: 100%;
+  height: auto;
+}
+
+img{
+  width:95%;
+}
+
+.text{
+  float:right;
 }
 
 .content{
@@ -115,7 +124,68 @@ ul{
       justify-content: flex-end;
 }*/
 
-
+/*
   .content{
     flex-flow:row wrap;
   }}
+*/
+
+/*
+@media screen and (mid-width:450px){
+
+}
+
+
+@media screen and (min-width:600px){
+  width:80%;
+}
+
+.authorbox{
+  width: 25%;
+  float: left;
+  margin-right:20px;
+}
+
+@media screen and (min-width:800px){
+  .item1{
+    margin-right: auto;
+  }
+  nav ul li{
+    margin:5px;
+  }
+  .pullquote{
+    display: block;
+  }
+  */
+
+@media screen and (min-width:700px){
+
+  #nav{
+    flex-flow:row;
+  }
+
+}
+
+@media screen and (min-width:1000px)
+{
+.content{
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-gap:20px;
+  grid-template-areas:
+  "a c d"
+}
+
+.centerimage{
+  grid-area:a;
+  width:100%;
+}
+
+.myemail{
+  grid-area:c;
+}
+
+.selfintro{
+  grid-area:d
+}
+}
