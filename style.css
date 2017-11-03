@@ -127,44 +127,6 @@ ul{
   		flex-direction: row;
       justify-content: space-between;
     }
-    /*.container {
-      flex-direction: row-reverse;
-      justify-content: flex-end;
-}*/
-
-/*
-  .content{
-    flex-flow:row wrap;
-  }}
-*/
-
-/*
-@media screen and (mid-width:450px){
-
-}
-
-
-@media screen and (min-width:600px){
-  width:80%;
-}
-
-.authorbox{
-  width: 25%;
-  float: left;
-  margin-right:20px;
-}
-
-@media screen and (min-width:800px){
-  .item1{
-    margin-right: auto;
-  }
-  nav ul li{
-    margin:5px;
-  }
-  .pullquote{
-    display: block;
-  }
-  */
 
 @media screen and (min-width:700px){
 
