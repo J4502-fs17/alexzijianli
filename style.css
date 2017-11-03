@@ -123,13 +123,14 @@ ul{
   }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width:700px) {
   	#nav {
   		flex-direction: row;
       justify-content: space-between;
     }
 
 @media screen and (min-width:1000px) {
+
 .content{
   display: grid;
   grid-template-columns: 200px 1fr 1fr;
@@ -137,7 +138,6 @@ ul{
   grid-template-areas:
   "a c d"
 }
-
 
 .centerimage{
   grid-area:a;
