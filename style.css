@@ -142,7 +142,7 @@ ul{
   grid-template-areas:
   "a c d"
 }
-}
+
 
 .centerimage{
   grid-area:a;
