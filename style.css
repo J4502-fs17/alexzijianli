@@ -129,8 +129,7 @@ ul{
     }
 
 @media screen and (min-width:700px) {
-
-  #nav{
+    #nav {
     flex-flow:row;
   }
 }
