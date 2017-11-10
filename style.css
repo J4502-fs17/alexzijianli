@@ -81,7 +81,7 @@ ul{
 }
 
 #nav {
-    padding: 0;
+padding: 0;
 	list-style-type: none;
   background-color: #98bf21;
 }
@@ -91,6 +91,7 @@ ul{
     padding: 0;
 	border-bottom: 1px solid #ccc;
 	text-decoration: none;
+
 }
 
 #nav a:link, a:visited {
@@ -118,16 +119,21 @@ ul{
 
 
 #nav {
-  	display: flex;
+  	display: none;
   	flex-direction: column;
   }
 
 
 @media only screen and (min-width:700px) {
   	#nav {
+      display:flex;
   		flex-direction: row;
       justify-content: space-between;
     }
+
+.menu-trigger{
+display: none;
+}
   }
 
 @media only screen and (min-width:1000px) {
@@ -138,6 +144,7 @@ ul{
   grid-gap:20px;
   grid-template-areas:
   "a c d"
+  "b b b";
 }
 
 .centerimage{
@@ -150,6 +157,12 @@ ul{
 }
 
 .selfintro{
-  grid-area:d
+  grid-area:d;
+}
+.ariticle{
+  grid-area:b;
+}
+.menu-trigger{
+display: none;
 }
 }
