@@ -4,9 +4,27 @@
     color: red;
 }*/
 
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
 html{
   font-size: 100%
 }
+
+
 
 p{
   font-family: "Lobster", Georgia, "Times New Roman", serif;
@@ -115,6 +133,7 @@ padding: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 0.8em;
     border-top: 10px solid black;
+    width: auto;
 }
 
 
